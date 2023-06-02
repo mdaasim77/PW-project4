@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form color change</title>
+    <style>
+        input[name="User"]
+        {
+            color: #ff0000;
+        }
+        input[name="mail"]
+        {
+            color:#0000ff;
+        }
+        input[name="password"]
+        {
+            color: #008000;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="User">Name:</label>
+            <input type="text" name="User" id="User" required>
+        </div>
+        <br>
+        <div>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Register Here">
+        </div>
+    </form>
+</body>
+</html>
